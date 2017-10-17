@@ -39,5 +39,3 @@
    );
  }
  add_action( 'init', 'create_custom_post_types' );
-
- ?>
