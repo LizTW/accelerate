@@ -30,7 +30,7 @@ get_header(); ?>
 
 			<ul class="homepage-featured-work">
 			<?php query_posts('posts_per_page=3'); ?>
-				<?php while ( have_posts() ) : the_post(); ?>
+				<?php while ( have_posts() ) : the_post(); 
 					$image_1 = get_field("image_1");
 					$size = "medium";
 				?>
