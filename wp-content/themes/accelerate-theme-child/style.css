@@ -53,6 +53,16 @@
   text-transform: uppercase;
 }
 
+.site-content h4 {
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+.individual-featured-work {
+  float: left;
+
+}
+
 /*** Single Case Study Page ***/
 
 .case-study {
