@@ -56,11 +56,13 @@
 .site-content h4 {
   text-align: center;
   text-transform: uppercase;
-  
 }
+
 .individual-featured-work {
   float: left;
-
+  text-align: center;
+  width: 50%;
+  height: 50%;
 }
 
 /*** Single Case Study Page ***/
