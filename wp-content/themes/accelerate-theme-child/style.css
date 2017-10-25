@@ -22,11 +22,17 @@
 
 .button {
     background: none repeat scroll 0 0 #45ac9d;
+
 }
 
 #masthead nav ul li {
   float: left;
   margin: 0 10px;
+}
+
+h1, h3 {
+  text-align: center;
+  color: #ffffff;
 }
 
 .blog-post {
@@ -53,21 +59,28 @@
   text-transform: uppercase;
 }
 
-.site-content h4 {
-  text-align: center;
+.featured-work h4 {
   text-transform: uppercase;
+  text-align: center;
+  position: absolute;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.individual-featured-work {
-  display: block;
-  float: left;
+.featured-work h3 {
+  font-weight: normal;
+  font-size: .2 em;
   text-align: center;
-  list-style:none;
-  padding-right: 10px;
+  color: black;
 }
+.individual-featured-work {
+  float: left;
+  list-style: none;
+  padding-right: 10px;
+  width: 30%;
+  position: relative;
+  padding-top: 10%;
+}
+
 
 /*** Single Case Study Page ***/
 
