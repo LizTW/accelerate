@@ -14,34 +14,27 @@ get_header(); ?>
 	<div id="primary" class="site-content">
 		<div class="content" role="main">
 			<?php while ( have_posts() ) : the_post();
-							$services = get_field('services');
-							$client = get_field('client');
-							$link = get_field('site_link');
 							$image_1 = get_field('image_1');
-							$image_2 = get_field('image_2');
-							$size = "full"; ?>
+							$size = "full";
+							$services = get_field('services'); ?>
 			       <?php the_content(); ?>
+
 						 <article class="case-study">
 		 					<aside class = "case-study-sidebar">
-		 						<h2><?php the_title(); ?></h2>
+		 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 		 						<h5><?php echo $services; ?></h5>
-		 						<h6>Client: <?php echo $client; ?></h6>
-
-		 						<p><strong><a href="<?php echo $link; ?>">Site Link</a></strong></p>
-		 					</aside>
+								<?php the_excerpt(); ?>
+		 						<p><strong><a href="<?php the_permalink(); ?>">View Project</a></strong></h2>
+							</aside>
 
 		 					<div class="case-study-images">
+								<a href="<?php the_permalink(); ?>">
 		 						<?php if($image_1) {
 		 							echo wp_get_attachment_image( $image_1, $size );
 		 					   } ?>
-		 						<?php if($image_2) {
-		 							echo wp_get_attachment_image( $image_2, $size );
-		 						} ?>
-		 						<?php if($image_3) {
-		 							echo wp_get_attachment_image( $image_3, $size );
-		 						 } ?>
-
-		 			   </article>
+							 </a>
+		 			   </div>
+					 </article>
 			<?php endwhile; // end of the loop. ?>
 
 		</div><!-- content -->
