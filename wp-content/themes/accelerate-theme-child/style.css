@@ -139,6 +139,28 @@ div.case-study-images img {
 
 }
 
+/*** CONTACT US ***/
+
+.field-wrap button, .field-wrap input[type=button], .field-wrap input[type=submit] {
+    width: auto;
+    background-color: #45ac9d;
+	  float: right;
+}
+
+.main-content {
+    padding: 2em 4em 4em 4em;
+}
+
+p {
+    color: grey;
+    font: 17px/1.65 'Open Sans', Arial, sans-serif;
+    margin: 1em auto;
+}
+
+.nf-field-label label {
+text-weight: 400;
+}
+
 /*** FOOTER NAV BAR ***/
 
 .social-icon {
