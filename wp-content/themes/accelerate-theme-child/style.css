@@ -157,10 +157,35 @@ p {
     margin: 1em auto;
 }
 
-.nf-field-label label {
-text-weight: 400;
+.nf-field .nf-field-label label {
+font-weight: 400;
 }
 
+/*** ABOUT US ***/
+
+.about p {
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  margin: auto;
+  width: 60%;
+
+}
+
+.about .our-services {
+  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+
+.about .left-text {
+  float: left;
+  display: inline-flex;
+}
+
+.about .site-content {
+  display:block;
+}
 /*** FOOTER NAV BAR ***/
 
 .social-icon {

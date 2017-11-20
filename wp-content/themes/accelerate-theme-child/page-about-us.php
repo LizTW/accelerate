@@ -19,22 +19,21 @@
  				<div class='about-hero'>
  					<?php the_content(); ?>
  				</div>
+  </section>
 
 	<!--OUR SERVICES -->
 	 <section class="site-content">
 		 <div class="our-services">
-			 <?php while ( have_posts() ) : the_post();
+			 <?php
 			 	$center_title_1 = get_field ('center_title_1');
 				$text_1 = get_field ('text_1'); ?>
 
 				<h4><?php echo $center_title_1; ?></h4>
 				<p><?php echo $text_1; ?></p>
 
-				<?php the_content(); ?>
-
 		 </div><!-- .main-content -->
 
-				<?php while ( have_posts() ) : the_post ();
+				<?php
 				  $icon_2 = get_field('icon_2');
 				  $center_title_2 = get_field('text_1');
 				  $text_2 = get_field('text_2');
@@ -49,7 +48,8 @@
 
 		 </div><!-- .main-content -->
 
-				<?php while ( have_posts () ) : the_post ();
+     <div class=left-text>
+				<?php
 					$left_title_3 = get_field('left_title_3');
 					$text_3 = get_field('text_3');
 					$icon_3 = get_field('icon_3');
@@ -64,7 +64,8 @@
 
 			 </div><!-- .main-content -->
 
-				<?php while ( have_posts () ) : the_post ();
+       <div class=center-text>
+				<?php
 				  $center_title_4 = get_field('center_title_4');
 				  $text_4 = get_field('text_4');
 				  $icon_4 = get_field('icon_4');
@@ -78,7 +79,9 @@
 
    		 </div><!-- .main-content -->
 
-			 <?php while ( have_posts () ) : the_post ();
+       <div class=left-text>
+         
+			 <?php
 				$left_title_5 = get_field('left_title_5');
 				$text_5 = get_field('text_5');
 				$icon_5 = get_field('icon_5');
@@ -92,5 +95,6 @@
 
 				<?php endwhile; // end of the loop. ?>
 	 		 </div><!-- .main-content -->
+  </section>
 
 <?php get_footer(); ?>
