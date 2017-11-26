@@ -163,6 +163,12 @@ font-weight: 400;
 
 /*** ABOUT US ***/
 
+.site-content.about-services {
+  display: block;
+  text-align: center;
+  width: 45%;
+}
+
 .about p {
   color: white;
   font-weight: bold;
@@ -172,19 +178,16 @@ font-weight: 400;
 
 }
 
-.about .our-services {
-  align-items: center;
-  margin: auto;
-  width: 50%;
-}
+ .about .left-text {
+   float:left;
+   display: inline-block;
+ }
 
-.about .left-text {
-  float: left;
-  display: inline-flex;
-}
+.about .button {
+ position: relative;
+ top: 5px;
+ left: 5px;
 
-.about .site-content {
-  display:block;
 }
 /*** FOOTER NAV BAR ***/
 

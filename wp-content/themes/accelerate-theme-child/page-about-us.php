@@ -16,13 +16,13 @@
  	<section class ="home-page about">
  		<div class="site-content">
  			<?php while ( have_posts() ) : the_post(); ?>
- 				<div class='about-hero'>
+ 				<div class="about-hero">
  					<?php the_content(); ?>
  				</div>
   </section>
 
 	<!--OUR SERVICES -->
-	 <section class="site-content">
+	 <section class="site-content about-services">
 		 <div class="our-services">
 			 <?php
 			 	$center_title_1 = get_field ('center_title_1');
@@ -41,14 +41,13 @@
 				?>
 
 				<?php echo wp_get_attachment_image( $icon_2, $size); ?>
-				<div class = "center-text">
+				<div class="center-text">
 					<h3><?php echo $center_title_2; ?></h3>
 					<p><?php echo $text_2; ?></p>
 				</div>
 
-		 </div><!-- .main-content -->
 
-     <div class=left-text>
+     <div class="left-text">
 				<?php
 					$left_title_3 = get_field('left_title_3');
 					$text_3 = get_field('text_3');
@@ -57,14 +56,14 @@
 				?>
 
 				<?php echo wp_get_attachment_image( $icon_3, $size); ?>
-					<div class = "left-text">
+					<div class="left-text">
 						<h3><?php echo $left_title_3; ?></h3>
 						<p><?php echo $text_3; ?></p>
 					</div>
 
 			 </div><!-- .main-content -->
 
-       <div class=center-text>
+       <div class="center-text">
 				<?php
 				  $center_title_4 = get_field('center_title_4');
 				  $text_4 = get_field('text_4');
@@ -72,15 +71,15 @@
 				?>
 
 				<?php echo wp_get_attachment_image( $icon_4, $size); ?>
-					<div class = "center-text">
+					<div class="center-text">
 						<h3><?php echo $center_title_4; ?></h3>
 						<p><?php echo $text_4; ?></p>
 					</div>
 
    		 </div><!-- .main-content -->
 
-       <div class=left-text>
-         
+       <div class="left-text">
+
 			 <?php
 				$left_title_5 = get_field('left_title_5');
 				$text_5 = get_field('text_5');
@@ -88,7 +87,7 @@
 			?>
 
 				<?php echo wp_get_attachment_image ( $icon_5, $size); ?>
-				 <div class = "left-text">
+				 <div class="left-text">
 					 <h3><?php echo $left_title_5; ?></h3>
 					 <p><?php echo $text_5; ?></p>
 				 </div>
@@ -97,4 +96,9 @@
 	 		 </div><!-- .main-content -->
   </section>
 
+      <div id="navigation" class="container">
+      <div class="working">
+        <h2>Interested in working with us?</h2>
+        <a class="button" href="<?php echo site_url('/contact/') ?>">Contact Us</a>
+      </div>
 <?php get_footer(); ?>
