@@ -166,7 +166,7 @@ font-weight: 400;
 .site-content.about-services {
   display: block;
   text-align: center;
-  width: 45%;
+  width: 55%;
 }
 
 .about p {
@@ -175,18 +175,40 @@ font-weight: 400;
   align-items: center;
   margin: auto;
   width: 60%;
-
 }
 
- .about .left-text {
-   float:left;
-   display: inline-block;
+.site-content.about-main {
+  display: block;
+  width: 90%;
+}
+
+.center-text img {
+  float: left;
+  width: 20%;
+}
+
+.left-text img {
+   float:right;
+   width: 20%;
  }
+
+.working h2 {
+  display: inline;
+  text-align: center;
+  padding-right: 2em;
+}
+
+.working {
+  width: 90%;
+  text-align: center;
+  border-top: 1px solid #bfbfbf;
+  padding-top: 2em;
+  margin-bottom: 2em;
+}
 
 .about .button {
  position: relative;
- top: 5px;
- left: 5px;
+ padding: 15px;
 
 }
 /*** FOOTER NAV BAR ***/

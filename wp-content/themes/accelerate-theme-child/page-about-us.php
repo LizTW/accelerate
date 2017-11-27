@@ -19,6 +19,7 @@
  				<div class="about-hero">
  					<?php the_content(); ?>
  				</div>
+    </div>
   </section>
 
 	<!--OUR SERVICES -->
@@ -33,6 +34,9 @@
 
 		 </div><!-- .main-content -->
 
+   </section>
+
+   <section class="site-content about-main">
 				<?php
 				  $icon_2 = get_field('icon_2');
 				  $center_title_2 = get_field('text_1');
@@ -40,14 +44,12 @@
 					$size = "small";
 				?>
 
-				<?php echo wp_get_attachment_image( $icon_2, $size); ?>
-				<div class="center-text">
-					<h3><?php echo $center_title_2; ?></h3>
-					<p><?php echo $text_2; ?></p>
+        <div class="center-text">
+				      <?php echo wp_get_attachment_image( $icon_2, $size); ?>
+					         <h3><?php echo $center_title_2; ?></h3>
+					         <p><?php echo $text_2; ?></p>
 				</div>
 
-
-     <div class="left-text">
 				<?php
 					$left_title_3 = get_field('left_title_3');
 					$text_3 = get_field('text_3');
@@ -55,30 +57,24 @@
 					$size = "small";
 				?>
 
-				<?php echo wp_get_attachment_image( $icon_3, $size); ?>
-					<div class="left-text">
-						<h3><?php echo $left_title_3; ?></h3>
-						<p><?php echo $text_3; ?></p>
-					</div>
+        <div class="left-text">
+				      <?php echo wp_get_attachment_image( $icon_3, $size); ?>
+						        <h3><?php echo $left_title_3; ?></h3>
+						        <p><?php echo $text_3; ?></p>
+				</div>
 
-			 </div><!-- .main-content -->
 
-       <div class="center-text">
 				<?php
 				  $center_title_4 = get_field('center_title_4');
 				  $text_4 = get_field('text_4');
 				  $icon_4 = get_field('icon_4');
 				?>
 
-				<?php echo wp_get_attachment_image( $icon_4, $size); ?>
-					<div class="center-text">
-						<h3><?php echo $center_title_4; ?></h3>
-						<p><?php echo $text_4; ?></p>
-					</div>
-
-   		 </div><!-- .main-content -->
-
-       <div class="left-text">
+        <div class="center-text">
+				      <?php echo wp_get_attachment_image( $icon_4, $size); ?>
+						        <h3><?php echo $center_title_4; ?></h3>
+						        <p><?php echo $text_4; ?></p>
+				</div>
 
 			 <?php
 				$left_title_5 = get_field('left_title_5');
@@ -86,17 +82,16 @@
 				$icon_5 = get_field('icon_5');
 			?>
 
-				<?php echo wp_get_attachment_image ( $icon_5, $size); ?>
-				 <div class="left-text">
-					 <h3><?php echo $left_title_5; ?></h3>
-					 <p><?php echo $text_5; ?></p>
+         <div class="left-text">
+				       <?php echo wp_get_attachment_image ( $icon_5, $size); ?>
+					          <h3><?php echo $left_title_5; ?></h3>
+					          <p><?php echo $text_5; ?></p>
 				 </div>
 
 				<?php endwhile; // end of the loop. ?>
-	 		 </div><!-- .main-content -->
+
   </section>
 
-      <div id="navigation" class="container">
       <div class="working">
         <h2>Interested in working with us?</h2>
         <a class="button" href="<?php echo site_url('/contact/') ?>">Contact Us</a>
