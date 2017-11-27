@@ -180,16 +180,28 @@ font-weight: 400;
 .site-content.about-main {
   display: block;
   width: 90%;
+  padding: 2em;
+}
+
+.site-content.about-main h3 {
+  color: black;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 4em;
 }
 
 .center-text img {
   float: left;
   width: 20%;
+  height: auto;
+  margin-right: 2em;
 }
 
 .left-text img {
    float:right;
    width: 20%;
+   height: auto;
+   margin-left: 2em;
  }
 
 .working h2 {
@@ -204,13 +216,44 @@ font-weight: 400;
   border-top: 1px solid #bfbfbf;
   padding-top: 2em;
   margin-bottom: 2em;
+  margin-left: 2em;
 }
 
 .about .button {
  position: relative;
  padding: 15px;
-
 }
+
+/*** 404 PAGE ***/
+
+.error-page {
+  width: 90%;
+}
+
+.error-page h1 {
+  font-size: 5em;
+  text-align: center;
+  color: red;
+}
+
+.error-page h2 {
+  font-size: 2em;
+  text-align: center;
+  color: purple;
+}
+
+.error-page h4 {
+  font-size: 1em;
+  text-align: center;
+  color: blue;
+}
+
+.error-page h5 {
+  font-size: .5em;
+  text-align: center;
+  color: black;
+}
+
 /*** FOOTER NAV BAR ***/
 
 .social-icon {

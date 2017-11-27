@@ -39,7 +39,7 @@
    <section class="site-content about-main">
 				<?php
 				  $icon_2 = get_field('icon_2');
-				  $center_title_2 = get_field('text_1');
+				  $center_title_2 = get_field('center_title_2');
 				  $text_2 = get_field('text_2');
 					$size = "small";
 				?>
