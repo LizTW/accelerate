@@ -12,6 +12,7 @@
 
 @import url("../accelerate-theme/style.css");
 
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
@@ -247,10 +248,13 @@ font-weight: 400;
   font-size: 1em;
   text-align: center;
   color: blue;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: bold;
 }
 
 .error-page h5 {
-  font-size: .5em;
+  font-size: 1em;
+  margin-left: 4em;
   text-align: center;
   color: black;
   font-family: 'Gloria Hallelujah', cursive;
