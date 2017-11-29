@@ -32,7 +32,6 @@
 }
 
 h1, h3 {
-  text-align: center;
   color: #ffffff;
 }
 
@@ -85,7 +84,21 @@ h1, h3 {
   align-content: center;
 }
 
+/*** WIDGET ***/
 
+h3.widget-title  {
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  color: #a6a6a6;
+  text-transform: uppercase;
+  margin: 2em 0 .5em;
+}
+
+a#follow-button.btn {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
 /*** Single Case Study Page ***/
 
 .case-study {
@@ -259,6 +272,7 @@ font-weight: 400;
   color: black;
   font-family: 'Gloria Hallelujah', cursive;
 }
+
 
 /*** FOOTER NAV BAR ***/
 
