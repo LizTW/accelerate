@@ -228,6 +228,7 @@ font-weight: 400;
 
 .error-page {
   width: 90%;
+  background: url("img/stop.jpg") no-repeat scroll left center rgba(0, 0, 0, 0);
 }
 
 .error-page h1 {
@@ -252,6 +253,7 @@ font-weight: 400;
   font-size: .5em;
   text-align: center;
   color: black;
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 /*** FOOTER NAV BAR ***/

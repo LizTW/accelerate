@@ -17,6 +17,7 @@ get_header(); ?>
 <div class="error-page">
 
   <h1>STOP</h1>
+
   <h5>in the name of love - sorry weird moment I got distracted....</h5>
   <h2>Do <span>NOT</span> pass go</h2>
   <h2>Do <span>NOT</span> move forward</h2>

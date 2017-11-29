@@ -39,3 +39,12 @@
    );
  }
  add_action( 'init', 'create_custom_post_types' );
+
+ // Enqueue scripts and styles
+ 
+ function accelerate_child_scripts() {
+   wp_enqueue_style('accelerate-style', get_stylesheet_url() );
+   wp_enqueue_style('accelerate-google-fonts','//fonts.googleapis.com/css?family=Gloria+Hallelujah');
+ }
+
+add_action( 'wp_enqueue_scripts', 'accelerate_child_scripts' )
