@@ -93,7 +93,12 @@ h3.widget-title  {
   margin: 2em 0 .5em;
 }
 
-a#follow-button.btn {
+ul.tweets {
+  list-style: none;
+  color: grey;
+}
+
+.widget-area span {
   font-family: 'Montserrat';
   font-weight: 700;
   color: #45ac9d;

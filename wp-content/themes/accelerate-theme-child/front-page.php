@@ -59,14 +59,15 @@ get_header(); ?>
 						<?php endwhile; ?>
 					<?php wp_reset_query(); ?>
 			</div>
-		</div>
-	</section><!--.home-age-->
-
 
 		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
 			<div id="secondary" class="widget-area" role="complementary">
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
 			</div>
 		<?php endif; ?>
+
+		<span>Follow Us</span>
+	</div>
+</section><!--.home-age-->
 
 <?php get_footer(); ?>

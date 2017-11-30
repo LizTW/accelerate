@@ -19,8 +19,8 @@ get_header(); ?>
   <h1>STOP</h1>
 
   <h5>in the name of love - sorry weird moment I got distracted....</h5>
-  <h2>Do <span>NOT</span> pass go</h2>
-  <h2>Do <span>NOT</span> move forward</h2>
+  <h2>Do <span>NOT</span> pass go!</h2>
+  <h2>Do <span>NOT</span> move forward!</h2>
   <h5> But I guess you can't move forward because you're stuck on this 404 error page....so maybe it's a bit redundent.</h5>
 
   <h4>Instead please enjoy the silence and reroute yourself back to the previous page.</h4>
