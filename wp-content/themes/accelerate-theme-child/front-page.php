@@ -60,14 +60,17 @@ get_header(); ?>
 					<?php wp_reset_query(); ?>
 			</div>
 
-		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
-			<div id="secondary" class="widget-area" role="complementary">
+			<div class="blog-post">
+				<h3 class="widget-title">Recent Tweets</h3>
+				<h2>@ACCELERATE</h2>
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
-			</div>
-		<?php endif; ?>
+					</div>
 
-		<span>Follow Us</span>
-	</div>
-</section><!--.home-age-->
+				<?php endif; ?>
+					<span>Follow Us ></span>
+			</div>
+		</section><!--.home-age-->
 
 <?php get_footer(); ?>
