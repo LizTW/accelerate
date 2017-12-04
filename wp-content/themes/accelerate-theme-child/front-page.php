@@ -67,9 +67,8 @@ get_header(); ?>
 					<div id="secondary" class="widget-area" role="complementary">
 				<?php dynamic_sidebar( 'sidebar-2' ); ?>
 					</div>
-
 				<?php endif; ?>
-					<span>Follow Us ></span>
+				<span>Follow Us ></span>
 			</div>
 		</section><!--.home-age-->
 
